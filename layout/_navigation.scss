@@ -1,21 +1,30 @@
-nav{      
-         display: flex;
-           justify-content: space-between;
-            align-items: center;
-    
-    ul{ list-style: none;  
-        justify-content: space-between;
-         align-items: center;
-         display: flex;}
+nav {
+    margin: 0 auto;
+    max-width: 1200px;
 
-    li{ padding: 0 10px 0 0;
-         }
-         
-    #logo
-    { 
-        height: 80px;
-        width: 80px;
-        background-color: black;
+    .barre {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid #cccccc;
+        box-shadow: 3px 3px 3px #333;
+    }
+
+    .liste {
+        display: flex;
+    }
+
+    .lien {
+        display: flex;
+        padding: 0 10px 0 0;
+    }
+
+    .patout {
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
+        padding: 0 16px;
     }
 }

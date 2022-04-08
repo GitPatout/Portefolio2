@@ -1,0 +1,39 @@
+.presentation {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .photo {
+        width: 200px;
+        height: 300px;
+    }
+
+    ul {
+        border: 3px solid rgb(180, 22, 22);
+        box-shadow: 3px 3px 3px #333;
+    }
+
+    li {
+        display: flex;
+        width: 500px;
+        padding: 10px 0 0 0;
+
+    }
+
+    .bouton {
+        cursor: pointer;
+        text-align: center;
+        background-color: white;
+        font-size: 15px;
+        box-shadow: 3px 3px 3px #333;
+    
+    }
+
+    h2 {
+        width: 400px;
+        white-space: normal;
+    }
+
+
+}

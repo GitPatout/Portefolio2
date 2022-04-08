@@ -1,13 +1,57 @@
 nav {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+nav .barre {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
   justify-content: space-between;
+  border: 2px solid #cccccc;
+  box-shadow: 3px 3px 3px #333;
 }
-
-ul {
-  display: flex;
-  gap: 10%;
-}
-
-li {
+nav .liste {
   display: flex;
 }
+nav .lien {
+  display: flex;
+  padding: 0 10px 0 0;
+}
+nav .patout {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0 16px;
+}
+
+.presentation {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.presentation .photo {
+  width: 200px;
+  height: 300px;
+}
+.presentation ul {
+  border: 3px solid rgb(180, 22, 22);
+  box-shadow: 3px 3px 3px #333;
+}
+.presentation li {
+  display: flex;
+  width: 500px;
+  padding: 10px 0 0 0;
+}
+.presentation .bouton {
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+  font-size: 15px;
+  box-shadow: 3px 3px 3px #333;
+}
+.presentation h2 {
+  width: 400px;
+  white-space: normal;
+}/*# sourceMappingURL=main.css.map */
