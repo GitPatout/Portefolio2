@@ -83,6 +83,7 @@ nav .patout {
   display: flex;
   width: 500px;
   padding: 10px 0 0 0;
+  margin: 0 0 0 0;
 }
 .presentation .bouton {
   cursor: pointer;
@@ -94,4 +95,17 @@ nav .patout {
 .presentation h2 {
   width: 400px;
   white-space: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .presentation {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  ul li {
+    display: flex;
+    white-space: normal;
+  }
 }/*# sourceMappingURL=main.css.map */
