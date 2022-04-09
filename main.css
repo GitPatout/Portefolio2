@@ -1,3 +1,43 @@
+.grille4 {
+  display: grid;
+  grid-template-columns: reapeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 450px;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+  grid-template-areas: "case1 case2" "case3 case4";
+}
+.grille4 .case1, .grille4 .case2, .grille4 .case3, .grille4 .case4 {
+  border: 3px solid;
+  box-shadow: 3px 3px 3px 3px #333;
+  text-align: center;
+  font-size: 20px;
+}
+.grille4 .case1 {
+  grid-area: case1;
+}
+.grille4 .case2 {
+  grid-area: case2;
+}
+.grille4 .case3 {
+  grid-area: case3;
+}
+.grille4 .case4 {
+  grid-area: case4;
+}
+.grille4 .git {
+  width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .grille4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "case1" "case2" "case3" "case4";
+  }
+}
 nav {
   margin: 0 auto;
   max-width: 1200px;
