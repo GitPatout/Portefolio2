@@ -1,0 +1,55 @@
+.cv {
+    display: grid;
+    grid-template-rows: repeat();
+    grid-template-columns: repeat();
+    grid-template-areas:
+        "exp competence"
+        "exp loisir";
+
+    height: 450px;
+    gap: 5px;
+    max-width: 1200px;
+    margin: auto;
+
+    .exp {
+        grid-area: exp;
+        font-size: 20px;
+    }
+
+    .competence {
+        grid-area: competence;
+        font-size: 20px;
+    }
+
+    .loisir {
+        grid-area: loisir;
+        font-size: 20px;
+    }
+
+    .date {
+        padding: 35px 0 0 0;
+        white-space: normal;
+    }
+    .c{
+        padding: 2px 0 0 0;
+        white-space: normal;
+    }
+    .l{
+        padding: 2px 0 0 0;
+        white-space: normal;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .cv {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "exp "
+            "competence"
+            "loisir";
+    }
+
+}

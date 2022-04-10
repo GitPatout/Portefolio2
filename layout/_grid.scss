@@ -1,4 +1,4 @@
-.grille4{
+.grille{
     display: grid;
     grid-template-columns: reapeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -41,7 +41,7 @@
 
 @media screen and (max-width:600px) {
 
-   .grille4{
+   .grille{
        grid-template-columns: 1fr;
        grid-template-rows: repeat(4, 1fr);
        grid-template-areas: 
