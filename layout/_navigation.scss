@@ -1,6 +1,6 @@
 nav {
     margin: 0 auto;
-    max-width: 1200px;
+    // max-width: 1200px;
 
     .barre {
         display: flex;
@@ -8,23 +8,37 @@ nav {
         justify-content: center;
         align-items: center;
         justify-content: space-between;
-        border: 2px solid #cccccc;
-        box-shadow: 3px 3px 3px #333;
+        // border: 2px solid #cccccc;
+        // box-shadow: 3px 3px 3px #333;
+        background-color: rgba(255, 255, 255, 0);
+        width: 100%;
+        margin: 0 0 50px 0;
+
     }
 
     .liste {
         display: flex;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        // -webkit-text-stroke: 2px rgb(104, 9, 9);
     }
 
     .lien {
         display: flex;
         padding: 0 10px 0 0;
+
     }
 
+
     .patout {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         padding: 0 16px;
     }
+
 }

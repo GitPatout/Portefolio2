@@ -1,15 +1,19 @@
 .cv {
     display: grid;
-    grid-template-rows: repeat();
-    grid-template-columns: repeat();
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
         "exp competence"
         "exp loisir";
 
-    height: 450px;
-    gap: 5px;
+    height: fit-content;
+    gap: 20px;
     max-width: 1200px;
     margin: auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 105px;
+    // left: 280px;
 
     .exp {
         grid-area: exp;
@@ -19,22 +23,28 @@
     .competence {
         grid-area: competence;
         font-size: 20px;
+        position: relative;
+        left: 105px;
     }
 
     .loisir {
         grid-area: loisir;
         font-size: 20px;
+        position: relative;
+        left: 109px;
     }
 
     .date {
         padding: 35px 0 0 0;
         white-space: normal;
     }
-    .c{
+
+    .c {
         padding: 2px 0 0 0;
         white-space: normal;
     }
-    .l{
+
+    .l {
         padding: 2px 0 0 0;
         white-space: normal;
     }

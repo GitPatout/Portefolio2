@@ -1,0 +1,55 @@
+footer {
+    margin: auto;
+    max-width: 1200px;
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        // border: 2px solid #cccccc;
+        box-shadow: 3px 3px 3px #333;
+        background-color: rgba(255, 255, 255, 0);
+        position: fixed;
+        bottom: 40px;
+        right: 1%;
+
+    }
+
+    .clik {
+
+        margin: 0 15px 0 0;
+        position: relative;
+        right: 70px;
+    }
+
+    .clik1 {
+        margin: 0 0 0 15px;
+        position: relative;
+        left: 70px;
+    }
+
+    .fout:hover {
+
+        transform: scale(1.5);
+
+
+    }
+
+    .fout1:hover {
+
+        transform: scale(1.5);
+
+    }
+
+    .fout,
+    .fout1 {
+        position: absolute;
+        cursor: pointer;
+        border-radius: 10%;
+        border: 2px solid black;
+        text-align: center;
+        background-color: white;
+        font-size: 20px;
+        box-shadow: 3px 3px 3px rgb(255, 255, 255);
+    }
+}

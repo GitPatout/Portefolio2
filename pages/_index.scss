@@ -3,6 +3,10 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    top: 180px;
+
+
 
     .photo {
         width: 200px;
@@ -10,8 +14,11 @@
     }
 
     ul {
-        border: 3px solid rgb(180, 22, 22);
-        box-shadow: 3px 3px 3px #333;
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 5%;
+        box-shadow: 3px 3px 3px rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        padding: 3px;
     }
 
     li {
@@ -26,8 +33,9 @@
         text-align: center;
         background-color: white;
         font-size: 15px;
-        box-shadow: 3px 3px 3px #333;
-    
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        border-radius: 10%;
+
     }
 
     h2 {
@@ -38,17 +46,18 @@
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-    .presentation{
+    .presentation {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
 
     }
-    ul li{
-      display: flex;
-      white-space: normal;
+
+    ul li {
+        display: flex;
+        white-space: normal;
     }
-    
+
 }
