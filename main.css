@@ -217,6 +217,8 @@ nav .patout {
 .presentation .photo {
   width: 230px;
   height: 300px;
+  border-radius: 2%;
+  box-shadow: 3px 3px 3px rgb(255, 255, 255);
 }
 .presentation ul {
   border: 3px solid rgb(0, 0, 0);
