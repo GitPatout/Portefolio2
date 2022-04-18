@@ -64,6 +64,7 @@ footer .fout1 {
   background-color: rgb(255, 255, 255);
   position: relative;
   top: 40px;
+  border-radius: 5%;
 }
 .grille .case1 {
   grid-area: case1;
@@ -102,6 +103,9 @@ footer .fout1 {
   background-color: rgb(255, 255, 255);
   position: relative;
   top: 105px;
+  border-radius: 5%;
+  border: 3px solid;
+  box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
 }
 .cv .exp {
   grid-area: exp;
@@ -172,13 +176,8 @@ nav .patout {
 }
 
 .page_contact {
-  width: 100%;
-  height: 100%;
   margin: 0;
-  color: black;
-  background-color: white;
-  background-image: url("../images/fond.jpg");
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(50, 116, 33, 0.26), rgba(124, 194, 124, 0.404), rgba(50, 116, 33, 0.26)), url("../images/fond.jpg");
 }
 .page_contact .bouge {
   position: relative;
@@ -192,6 +191,9 @@ nav .patout {
   height: 500px;
   background-color: white;
   position: absolute;
+  border-radius: 5%;
+  border: 3px solid;
+  box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
 }
 .page_contact .contact {
   display: flex;
@@ -213,7 +215,7 @@ nav .patout {
   top: 180px;
 }
 .presentation .photo {
-  width: 200px;
+  width: 230px;
   height: 300px;
 }
 .presentation ul {
@@ -223,7 +225,7 @@ nav .patout {
   background-color: rgb(255, 255, 255);
   padding: 3px;
 }
-.presentation li {
+.presentation ul li {
   display: flex;
   width: 500px;
   padding: 10px 0 0 0;

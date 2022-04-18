@@ -14,6 +14,9 @@
     position: relative;
     top: 105px;
     // left: 280px;
+    border-radius: 5%;
+    border: 3px solid;
+    box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
 
     .exp {
         grid-area: exp;
